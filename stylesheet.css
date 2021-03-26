@@ -1,0 +1,377 @@
+    /*
+    html5doctor.com Reset Stylesheet
+    v1.6.1
+    Last Updated: 2010-09-17
+    Author: Richard Clark - http://richclarkdesign.com
+    Twitter: @rich_clark
+    */
+
+    html, body, div, span, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    abbr, address, cite, code,
+    del, dfn, em, img, ins, kbd, q, samp,
+    small, strong, sub, sup, var,
+    b, i,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, figcaption, figure,
+    footer, header, hgroup, menu, nav, section, summary,
+    time, mark, audio, video {
+        margin:0;
+        padding:0;
+        border:0;
+        outline:0;
+        font-size:100%;
+        vertical-align:baseline;
+        background:transparent;
+    }
+
+    body {
+        line-height:1;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    }
+
+    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+        font-family: inherit;
+    }
+
+    article,aside,details,figcaption,figure,
+    footer,header,hgroup,menu,nav,section {
+        display:block;
+    }
+
+    nav ul {
+        list-style:none;
+    }
+
+    blockquote, q {
+        quotes:none;
+    }
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content:'';
+        content:none;
+    }
+
+    a {
+        margin:0;
+        padding:0;
+        font-size:100%;
+        vertical-align:baseline;
+        background:transparent;
+    }
+
+    /* change colours to suit your needs */
+    ins {
+        background-color:#ff9;
+        color:#000;
+        text-decoration:none;
+    }
+
+    /* change colours to suit your needs */
+    mark {
+        background-color:#ff9;
+        color:#000;
+        font-style:italic;
+        font-weight:bold;
+    }
+
+    del {
+        text-decoration: line-through;
+    }
+
+    abbr[title], dfn[title] {
+        border-bottom:1px dotted;
+        cursor:help;
+    }
+
+    table {
+        border-collapse:collapse;
+        border-spacing:0;
+    }
+
+    /* change border colour to suit your needs */
+    hr {
+        display:block;
+        height:1px;
+        border:0;  
+        border-top:1px solid #cccccc;
+        margin:1em 0;
+        padding:0;
+    }
+
+    input, select {
+        vertical-align:middle;
+    }
+
+    .inner {
+      position: relative;
+      width: 1110px;
+      margin: 0 auto;
+    }
+
+    header {
+      height: 100px;
+      text-align: right;
+    }
+
+    header h1 {
+      position: absolute;
+      top: 7px;
+    }
+
+    header h1 img {
+      width: 280px;
+    }
+
+    header ul {
+      display: inline-block;
+      padding: 20px 0;
+      list-style: none;
+    }
+
+    header ul li {
+      display: inline-block;
+      color: #6C757D;
+      text-align: left;
+      vertical-align: middle;
+      line-height: 1.3;
+    }
+
+    header ul li:first-child {
+      margin-right: 20px;
+    }
+
+    header ul li h2 {
+      font-size: 13px;
+      font-weight: normal;
+    }
+
+    header ul li p {
+      font-size: 32px;
+      font-weight: bold;
+    }
+
+    header ul li a {
+      display: inline-block;
+      height: 48px;
+      padding: 0 15px;
+      border-radius: 5px;
+      font-size: 20px;
+      color: #fff;
+      text-decoration: none;
+      line-height: 48px;
+      background-color: #6c757d;
+    }
+    
+    header ul li a:hover {
+      background-color: #5a6268;
+    }
+
+    nav {
+      background-color: #343B3F;
+      text-align: center;
+    }
+
+    nav ul {
+      width: 1110px;
+      margin: 0 auto;
+    }
+
+    nav ul li {
+      display: inline-block;
+    }
+
+    nav ul li a {
+      display: inline-block;
+      height: 55px;
+      line-height: 55px;
+      color: rgba(255,255,255,.5);
+      text-decoration: none;
+      padding: 0 35px;
+    }
+    
+    nav ul li a:hover {
+      color: rgba(255,255,255,.75);
+    }
+
+    .key_visual {
+      height: 600px;
+      background-image: url(image/top-image.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: right;
+    }
+    
+    .key_visual_content {
+      text-align: left;
+      display: inline-block;
+      width: 560px;
+      height: 300px;
+      padding: 30px 15px;
+      border: 1px solid rgba(0,0,0,.125);
+      border-radius: 5px;
+      background: #fff;
+      box-sizing: border-box;
+      margin-top: 60px;
+    }
+    
+    .key_visual_content h2 {
+      margin-bottom: 15px;
+      font-size: 55px;
+      font-weight: 300;
+    }
+    
+    .key_visual_content p {
+      margin-bottom: 35px;
+      font-size: 20px;
+      font-weight: 300px;
+      line-height: 1.5;
+    }
+
+    .key_visual_content .notice {
+      font-size: 13px;
+    }
+
+    body {
+      font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1100px;
+      margin: 0 auto;
+      overflow: hidden;
+      line-height: 2em;
+      font-size: 14px;
+    }
+
+    #main {
+      width: 73%;
+      float: right;
+      padding-bottom: 95px;
+      background: #fff;
+    }
+
+    #main h2 {
+      height: 38px;
+      margin: 15px 0;
+      padding-left: 35px;
+      background: #000 url(images/download.png) no-repeat left 10px center;
+      font-size: 16px;
+      color: #fff;
+      line-height: 38px;
+    }
+
+    #main h3 {
+      height: 38px;
+      padding: 0 15px;
+      border: 1px solid #ccc;
+      margin: 15px 0;
+      background: linear-gradient(#fff,#ebebeb);
+      font-size: 15px;
+      color: #333;
+      line-height: 38px;
+    }
+
+    #main h4 {
+      padding: 0 15px;
+      font-weight: bold;
+      margin-top: 15px;
+    }
+
+    #main p {
+      padding: 0 15px;
+    }
+
+    #main a {
+      color: #333;
+    }
+
+    .news {
+      height: 150px;
+      padding-left: 15px;
+      overflow-y: scroll;
+    }
+
+    .news dt {
+      display: inline-block;
+      width: 14%;
+      min-width: 100px;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .news dd {
+      display: inline-block;
+      width: 86%;
+      border-bottom: 1px solid #ccc
+    }
+
+    .new {
+      background: #FF0202;
+      color: #fff;
+      padding: 0 4px;
+      border-radius: 2px;
+      font-size: 10px;
+    }
+
+    #sidebar {
+      width: 23%;
+      float: left;
+      background: #fff;
+    }
+
+    #sidebar h2 {
+      padding-left: 10px;
+      border-left: 3px solid #000;
+      margin-bottom: 18px;
+      line-height: 1em;
+    }
+
+    #sidebar ul {
+      list-style: none;
+    }
+
+    #sidebar ul li {
+      height: 32px;
+      background: #fff;
+      line-height: 32px;
+      border-bottom: 1px solid #ccc;
+    }
+
+    #sidebar ul li:last-child {
+      border: none;
+    }
+
+    #sidebar ul li a {
+      display: block;
+      padding-left: 12px;
+      color: #333;
+      text-decoration: none;
+      transition: 0.5s;
+    }
+
+    #sidebar ul li a:hover {
+      background: #000;
+      color: #fff;
+    }
+
+    .box {
+      margin: 15px 0;
+    }
+
+    .bg-gray {
+      padding: 20px 15px;
+      border: 1px solid #ccc;
+      background: #e4e4e4;
+    }
+
+    footer {
+      background: #000;
+      color: white;
+      text-align: center;
+      font-size: 12px;
+      line-height: 2em;
+    }
